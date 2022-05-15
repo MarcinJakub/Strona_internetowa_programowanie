@@ -28,6 +28,7 @@ ul
   width: 100%;
   overflow: hidden;
   background-color: #334;
+  border-bottom: 1px solid #223;
 }
 
 li 
@@ -49,6 +50,14 @@ li a
 li a:hover 
 {
   background-color: #112;
+}
+
+.center
+{
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 
 .active 
@@ -76,10 +85,9 @@ li a:hover
 	font-family: 'Josefin Sans', sans-serif;
 }
 
-
 #header > h1
 {
-	padding: 310px;
+	padding-top: 310px;
 }
 
 #page
@@ -99,6 +107,7 @@ li a:hover
 {
 	color: #223;
 	font-size: 24px;
+	padding-bottom: 15px;
 }
 
 #footer
@@ -110,7 +119,7 @@ li a:hover
 
 .article
 {
-	text-align: justify;
+
 	padding: 40px;
-	height: 200px;
+	min-height: 200px;
 }
