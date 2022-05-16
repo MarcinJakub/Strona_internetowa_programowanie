@@ -18,7 +18,7 @@ p
 	margin: 0;
 }
 
-ul 
+#navbar > ul
 {
   list-style-type: none;
   margin: 0;
@@ -31,23 +31,22 @@ ul
   border-bottom: 1px solid #223;
 }
 
-li 
+#navbar > ul > li
 {
   float: left;
 }
 
-li a 
+#navbar > ul > li a
 {
   display: block;
   padding: 8px;
-  display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-li a:hover 
+#navbar > ul > li a:hover 
 {
   background-color: #112;
 }
@@ -103,6 +102,16 @@ li a:hover
 	
 }
 
+ul
+{
+	list-style-type: none;
+}
+
+li
+{
+	text-decoration: none;
+}
+
 .article > h1
 {
 	color: #223;
@@ -115,6 +124,8 @@ li a:hover
 	clear: both;
 	background-color: #223;
 	min-height: 150px;
+	color: white;
+	text-align: center;
 }
 
 .article
