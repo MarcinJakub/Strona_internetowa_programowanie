@@ -34,6 +34,8 @@ p
 #navbar > ul > li
 {
   float: left;
+  padding: 0px;
+  font-size: 16px;
 }
 
 #navbar > ul > li a
@@ -78,7 +80,7 @@ p
     color: #ffffff;
 	text-align: center;
 	font-size: 35px;
-	font-weight: 300;
+	font-weight: 400;
 	margin: 0px;
 	background-image: url(img/milky-way.jpg);
 	font-family: 'Josefin Sans', sans-serif;
@@ -105,27 +107,51 @@ p
 ul
 {
 	list-style-type: none;
+	margin: 0;
 }
 
 li
 {
 	text-decoration: none;
+	padding: 5px;
+	font-size: 20px;
+}
+
+li > h1
+{
+	font-size: 32px;
+}
+
+li a
+{
+	text-decoration: none;
+	color: #223
+}
+
+li a:hover
+{
+	text-decoration: underline;
+	color: #223
 }
 
 .article > h1
 {
 	color: #223;
-	font-size: 24px;
+	font-size: 32px;
+	padding-top: 15px;
 	padding-bottom: 15px;
 }
 
-#footer
+
+ul > li > h1
 {
-	clear: both;
-	background-color: #223;
-	min-height: 150px;
-	color: white;
-	text-align: center;
+	padding-bottom: 15px;
+	color: #223
+}
+
+ul > li > ol > li
+{
+	color: #223
 }
 
 .article
@@ -133,4 +159,107 @@ li
 
 	padding: 40px;
 	min-height: 200px;
+	padding-bottom: 100px;
+}
+
+.footer
+{
+	clear: both;
+	background-color: #223;
+	min-height: 200px;
+	color: white;
+	text-align: center;
+}
+
+#copy
+{
+	height: 150px;
+	display:block;
+    bottom:0;
+	width:100%;
+}
+
+.media
+{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+.rectangle
+{
+	margin-left: auto;
+	margin-right: auto;
+	height: 80px;
+	width: 320px;
+	padding: 40px;
+}
+
+.yt
+{
+	margin: 10px;
+	width: 60px;
+	height: 60px;
+	border-radius: 60px;
+	background-color: #d94348;
+	float: left;
+}
+
+.yt:hover
+{
+	background-color: #c83237;
+}
+
+.fb
+{
+	margin: 10px;
+	width: 60px;
+	height: 60px;
+	border-radius: 60px;
+	background-color: #4668b3;
+	float: left;
+}
+
+.fb:hover
+{
+	background-color: #3557a2;
+}
+
+.gplus
+{
+	margin: 10px;
+	width: 60px;
+	height: 60px;
+	border-radius: 60px;
+	background-color: #d95333;
+	float: left;
+}
+
+.gplus:hover
+{
+	background-color: #c84222;
+}
+
+.tw
+{
+	margin: 10px;
+	width: 60px;
+	height: 60px;
+	border-radius: 60px;
+	background-color: #3095d3;
+	float: left;
+}
+
+.tw:hover
+{
+	background-color: #2084c2;
+}
+
+a.sociallink
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	width: 50px;
+	height: 50px;
 }
